@@ -40,7 +40,7 @@ This project has several use cases such as:
     - Enable billing through the billing account your created
 4. Enable google maps in cloud console
     - Specify "Android apps" and generate a SHA1
-5. Add your API key to `local.properties`. **Note:** To reference the API key in `local.properties` you'll need the secrets plugin installed. See my [build.gradle (project)](https://github.com/ryandharmawira/DicodingStoryCompose/build.gradle.kts). It's the `com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1` dependency.
+5. Add your API key to `local.properties`. **Note:** To reference the API key in `local.properties` you'll need the secrets plugin installed. See my [build.gradle (project)](https://github.com/ryandharmawira/DicodingStoryCompose/blob/master/build.gradle.kts). It's the `com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1` dependency.
 ```
 # local.properties
 GOOGLE_MAPS_API_KEY=<YOUR_KEY>
