@@ -23,11 +23,11 @@ This project has several use cases such as:
   * About - shows a dummy page
 
 ## Images
-![Registration Screen](/image/register.jpg "Registration Screen")
-![Login Screen](/image/login.jpg "Login Screen")
-![Navigation Drawer](/image/login.jpg "Navigation Drawer")
-![Home Screen in Light Mode](/image/home_light.jpg "Home Screen in Light Mode")
-![Home Screen in Dark Mode](/image/home_dark.jpg "Home Screen in Dark Mode")
+<img src="image/register.jpg" width="25%">
+<img src="image/login.jpg" width="25%">
+<img src="image/navigation_drawer.jpg" width="25%">
+<img src="image/home_light.jpg" width="25%">
+<img src="image/home_dark.jpg" width="25%">
 
 ## Dependency
 * Navigation Compose
