@@ -22,6 +22,13 @@ This project has several use cases such as:
   * Maps - shows Google Maps and marks stories location
   * About - shows a dummy page
 
+## Images
+![Registration Screen](/image/register.jpg "Registration Screen")
+![Login Screen](/image/login.jpg "Login Screen")
+![Navigation Drawer](/image/login.jpg "Navigation Drawer")
+![Home Screen in Light Mode](/image/home_light.jpg "Home Screen in Light Mode")
+![Home Screen in Dark Mode](/image/home_dark.jpg "Home Screen in Dark Mode")
+
 ## Dependency
 * Navigation Compose
 * Retrofit and OkHttp
