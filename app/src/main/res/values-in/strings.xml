@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dicoding Story</string>
+
+    <string name="version">Versi %s</string>
+    <string name="developer_name">Ryan Dharmawira</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hide_password">Sembunyikan password</string>
+    <string name="show_password">Tampilkan password</string>
+    <string name="login">Masuk</string>
+    <string name="logout">Keluar</string>
+    <string name="register">Buat Akun</string>
+
+    <plurals name="seconds">
+        <item quantity="other">%d detik lalu</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d jam lalu</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <string name="time_pattern">dd MMMM yyyy</string>
+
+
+
+
+    <string name="home">Home</string>
+    <string name="maps">Peta</string>
+    <string name="about">Tentang</string>
+    <string name="account">Akun</string>
+
+    <string name="add_story">Tambah Story</string>
+    <string name="new_story">Story Baru</string>
+    <string name="upload">Unggah</string>
+    <string name="description_placeholder">Tulis sebuah deskripsi…</string>
+
+    <string name="dialog_success_register_title">Registrasi Berhasil</string>
+    <string name="dialog_success_register_description">Akun Anda berhasil dibuat.</string>
+
+    <string name="dialog_success_add_story_title">Unggah Berhasil</string>
+    <string name="dialog_success_add_story_description">Story Anda berhasil diunggah.</string>
+
+    <string name="menu">Menu</string>
+    <string name="back">Kembali</string>
+
+    <string name="permission_required">Izin Dibutuhkan</string>
+    <string name="grant_permission">Setelan Aplikasi</string>
+    <string name="ok">OK</string>
+    <string name="camera_permission_rationale">
+        Aplikasi membutuhkan akses kamera untuk menangkap hasil fotomu dan mengunggahnya.
+    </string>
+    <string name="camera_permission_permanently_declined">
+        Sepertinya kamu menolak izin kamera secara permanen.
+        Kamu dapat memberikan izin melalui setelan aplikasi.
+    </string>
+</resources>

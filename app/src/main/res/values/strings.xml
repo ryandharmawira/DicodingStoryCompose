@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Dicoding Story</string>
+
+    <string name="version">Version %s</string>
+    <string name="developer_name">Ryan Dharmawira</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="show_password">Show password</string>
+    <string name="login">Sign In</string>
+    <string name="logout">Sign Out</string>
+    <string name="register">Create Account</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d second ago</item>
+        <item quantity="other">%d seconds ago</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <string name="time_pattern">MMMM dd, yyyy</string>
+
+    <string name="home">Home</string>
+    <string name="maps">Maps</string>
+    <string name="about">About</string>
+    <string name="account">Account</string>
+
+    <string name="add_story">Add Story</string>
+    <string name="new_story">New Story</string>
+    <string name="upload">Upload</string>
+    <string name="description_placeholder">Write a description…</string>
+
+    <string name="dialog_success_register_title">Registration Success</string>
+    <string name="dialog_success_register_description">Your account has been created.</string>
+
+    <string name="dialog_success_add_story_title">Upload Success</string>
+    <string name="dialog_success_add_story_description">Your story has been uploaded.</string>
+
+    <string name="menu">Menu</string>
+    <string name="back">Back</string>
+
+    <string name="permission_required">Permission Required</string>
+    <string name="grant_permission">App Setting</string>
+    <string name="ok">OK</string>
+    <string name="camera_permission_rationale">
+        This app needs access to your camera so that you can capture your photo and upload it.
+    </string>
+    <string name="camera_permission_permanently_declined">
+        It seems you permanently declined camera permission.
+        You can go to the app settings to grant it.
+    </string>
+</resources>
