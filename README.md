@@ -18,7 +18,7 @@ This project has several use cases such as:
   * Registration
 * Main
   * Home - shows lists of stories
-  * Add Story - users can add/capture a photo, write a description and upload it.
+  * Add Story - users can add/capture a photo, write a description and upload it
   * Maps - shows Google Maps and marks stories location
   * About - shows a dummy page
 
@@ -58,20 +58,20 @@ Add Story, Camera and Gallery
 * Compressor by zetbaitsu
 * Google Location Services, Maps and Maps Compose
 
-# Google Maps SDK for Android Setup
-1. You'll need a billing account. Create one here https://console.cloud.google.com/billing.
-2. Create a new project in cloud console https://console.cloud.google.com/. Once its created switch to that project.
-3. Go to marketplace and enable google maps SDK for the new project https://console.cloud.google.com/marketplace.
-    - "Maps SDK for Android"
-    - Enable billing through the billing account your created
-4. Enable google maps in cloud console
-    - Specify "Android apps" and generate a SHA1
-5. Add your API key to `local.properties`. **Note:** To reference the API key in `local.properties` you'll need the secrets plugin installed. See my [build.gradle (project)](https://github.com/ryandharmawira/DicodingStoryCompose/blob/master/build.gradle.kts). It's the `com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1` dependency.
+# Getting Started
+
+This project can be build and run by following these instructions:
+1. Clone or Download this project
+2. Install Android Studio and open the project. (I am using Android Studio Dolphin)
+3. In the project root directory, create `local.properties` file (if the file does not exist), then add your Google Maps API Key.
+```gradle
+GOOGLE_MAPS_API_KEY=YOUR_API_KEY
 ```
-# local.properties
-GOOGLE_MAPS_API_KEY=<YOUR_KEY>
-```
-6. Update your `AndroidManifest.xml` to include the API key. Within the `application` tag.
+
+**Note:**
+To reference the API Key in `local.properties`, you will need the `com.google.android.libraries.mapsplatform.secrets-gradle-plugin` installed.
+See my [build.gradle (project)](https://github.com/ryandharmawira/DicodingStoryCompose/blob/master/build.gradle.kts).
+Then in `AndroidManifest.xml`, update the code within the `<application>` tag.
 ```
 <application
    ...
@@ -81,3 +81,12 @@ GOOGLE_MAPS_API_KEY=<YOUR_KEY>
 	  android:value="${GOOGLE_MAPS_API_KEY}"/>
 </application>
 ```
+
+## Obtain Google Maps API Key Without Billing Account
+
+1. Generate your device SHA certificate by opening your Terminal inside your Android Studio project
+2. Copy the link below, replace `11:22:33:44:55:66:77:88:99:00:AA:BB:CC:DD:EE:FF:01:23:45:67` with your SHA1 and `com.packagename.appname` (in this case `com.ryan.dicodingstorycompose`) with your root package name.
+```
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=11:22:33:44:55:66:77:88:99:00:AA:BB:CC:DD:EE:FF:01:23:45:67%3Bcom.packagename.appname
+```
+3. Then your API Key is generated, usually starts with `AIza...`.
