@@ -1,6 +1,7 @@
 package com.ryan.dicodingstorycompose.presentation.register
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
@@ -11,6 +12,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
@@ -67,7 +69,11 @@ fun RegisterScreenContent(
                         .fillMaxHeight(0.4f)
                         .padding(16.dp),
                     painter = painterResource(id = R.drawable.image_dicoding),
-                    contentDescription = null
+                    contentDescription = null,
+                    colorFilter = if (isSystemInDarkTheme())
+                        ColorFilter.tint(MaterialTheme.colorScheme.onBackground)
+                    else
+                        null
                 )
                 Spacer(modifier = Modifier.height(16.dp))
                 OutlinedTextField(

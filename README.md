@@ -22,12 +22,31 @@ This project has several use cases such as:
   * Maps - shows Google Maps and marks stories location
   * About - shows a dummy page
 
-## Images
-<img src="image/register.jpg" width="25%">
-<img src="image/login.jpg" width="25%">
-<img src="image/navigation_drawer.jpg" width="25%">
-<img src="image/home_light.jpg" width="25%">
-<img src="image/home_dark.jpg" width="25%">
+## Preview
+Register, Login, Home and Maps
+<p float="left">
+<img src="preview/light/register.jpg" width="24%">
+<img src="preview/light/login.jpg" width="24%">
+<img src="preview/light/home.jpg" width="24%">
+<img src="preview/light/maps.jpg" width="24%">
+<img src="preview/dark/register.jpg" width="24%">
+<img src="preview/dark/login.jpg" width="24%">
+<img src="preview/dark/home.jpg" width="24%">
+<img src="preview/dark/maps.jpg" width="24%">
+</p>
+<br>
+
+Add Story, Camera and Gallery
+<p float="left">
+<img src="preview/light/add_story.jpg" width="24%">
+<img src="preview/light/camera.jpg" width="24%">
+<img src="preview/light/gallery.jpg" width="24%">
+<img src="preview/light/add_story_2.jpg" width="24%">
+<img src="preview/dark/add_story.jpg" width="24%">
+<img src="preview/dark/camera.jpg" width="24%">
+<img src="preview/dark/gallery.jpg" width="24%">
+<img src="preview/dark/add_story_2.jpg" width="24%">
+</p>
 
 ## Dependency
 * Navigation Compose
